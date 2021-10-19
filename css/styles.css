@@ -119,15 +119,24 @@ color: var(--primary-text-color);
 
 .features-list {
     display: flex;
+
     /* margin-top: 94px; */
 }
-.features-item:not(:last-child) {
-    margin-right: 30px;}
+/* .features-item:not(:last-child) {
+    margin-right: 30px;} */
 
 
 .features-text {
         margin-top: 10px;}
 
+.features-item {
+    width: 270px;
+    
+}
+
+.features-item:not(:last-child) {
+    margin-right: 30px;
+}
 
 .works {
 font-weight: bold;
@@ -359,6 +368,7 @@ header {
     padding-bottom: 6px;
     padding-left: 22px;
     padding-right: 22px;
+    border: none;
 }
 .buttons-item:not(:last-child) {
     margin-right: 8px;
